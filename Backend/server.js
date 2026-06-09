@@ -9,7 +9,7 @@ app.use(cors());
 
 // Map user routing subsystem
 app.use(cors({
-    origin: 'http://localhost:5173', // Allow requests from your React development server
+    origin: 'https://educase-react-task-frontend.onrender.com/login', // Allow requests from your React development server
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization']
 }));
