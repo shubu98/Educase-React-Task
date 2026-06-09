@@ -20,7 +20,7 @@ function Profile() {
 
       try {
         const response = await axios.get(
-          'http://localhost:5000/api/profile',
+          'https://educase-react-task-backend.onrender.com/api/profile',
           {
             headers: {
               Authorization: `Bearer ${token}`,

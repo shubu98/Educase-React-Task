@@ -11,7 +11,7 @@ function Login() {
     e.preventDefault();
     try {
       // Direct post mapping optimization via Axios package instance
-      const response = await axios.post('http://localhost:5000/api/login', {
+      const response = await axios.post('https://educase-react-task-backend.onrender.com/api/login', {
         email_address: email,
         password: password
       });

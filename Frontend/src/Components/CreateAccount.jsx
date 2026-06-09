@@ -17,7 +17,7 @@ function CreateAccount() {
     e.preventDefault();
     try {
       // Axios POST handler logic replace native fetch structure
-      const response = await axios.post('http://localhost:5000/api/register', formData);
+      const response = await axios.post('https://educase-react-task-backend.onrender.com/api/register', formData);
       if (response.status === 201) {
         navigate('/login');
       }
