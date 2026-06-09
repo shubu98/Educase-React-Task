@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Welcome from './components/Welcome';
-import CreateAccount from './components/CreateAccount';
-import Login from './components/Login';
-import Profile from './components/Profile';
+import Welcome from './Components/Welcome';
+import CreateAccount from './Components/CreateAccount';
+import Login from './Components/Login';
+import Profile from './Components/Profile';
 import './App.css';
 
 function App() {
